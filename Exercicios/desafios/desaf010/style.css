@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid' ;
+    src: url('.idroid.otf')format('opentype'),url('idroid.otf')format('opentype');
+}
+
+body{
+    background-color: rgb(157, 255, 239);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+}
+header > h1{
+    background-image: linear-gradient(to top, rgb(0, 209, 164));
+    color: white;
+    margin: 0px;
+    padding: 10px;
+    font-size: 2.4em;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+h2{
+    font-family: 'idroid', Arial, Helvetica, sans-serif;
+    color: #007255;
+    background-image: linear-gradient(to right, rgb(155, 253, 245) 50%, rgb(255, 255, 255));
+    height: 30px;
+    padding:2px;
+}
+header>p{
+    color: rgb(255, 255, 255);
+    margin: 8px;
+    font-size: 0.7em;
+}
+header{
+    background-image: linear-gradient(to top, rgb(0, 128, 89)35%,rgb(0, 189, 148));
+    text-align: center;
+    
+}
+nav{
+    text-align: left;
+    text-decoration: none;
+    padding: 5px;
+    
+}
+nav > a{
+    text-decoration: none;
+    margin: 5px;
+    color: white;
+    font-weight: bold;
+}
+a:hover{
+    background-color: #026144;
+    margin: 1px;
+    padding: 5px;
+}
+
+p>span{
+    color: #007255;
+    font-weight: bold;
+    
+}
+
+main{
+    background-color: white;
+    margin: 0px 80px 10px 80px;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+    min-width: 320px;
+    max-width: 1000;
+    box-shadow: 0px 0px 6px black;
+}
+
+main>p{
+    text-align: left;
+    background-color: black;
+    
+}
+div.video{
+    background-color: rgb(0, 66, 46);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 57%;
+    text-align: center;
+    position: relative;
+}
+div.video > iframe{
+    position: absolute;
+    top:5% ;
+    left:5% ;
+    width: 90%;
+    height: 90%;
+}
+
+
+section>p{
+    background-color: #007552;
+    color: rgb(255, 255, 255);
+    margin: 5px 5px 0px 5px;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+    font-weight: bold;
+    
+}
+section>div{
+    background-color: rgb(160, 233, 223);
+    margin: 0px 5px 0px 5px;
+    padding: 10px;
+    text-align: left;
+
+}
+ul{
+    columns: 2;
+}
+img{
+    width:100%;
+    max-width: 1400px;
+    display: block;
+    margin: auto;
+}
+main img.pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+   
+
+footer{
+    background-color: #007552;
+    padding: 5px;
+    text-align: center;
+    
+    border-radius: 2px;
+    color: white;
+}
+footer>span{
+    font-weight: bolder;
+    color: white;
+}
