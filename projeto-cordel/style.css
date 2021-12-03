@@ -12,7 +12,8 @@ header>p{
     color: white;
     background-color: black;
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 8vh;
+    
     
 }
 a{
@@ -30,18 +31,19 @@ header>h1{
     color: white;
     background-color: black;
     text-align: center;
-    padding: 40px 40px 1px 40px;
-    font-size: 3em;
+    padding: 40px 40px 5px 40px;
+    font-size: 10vh;
+    margin: 0px;
 }
 
 
 section{
-    padding-top: 10vh;
+    padding-top: 8vh;
     padding-bottom: 10vh;
-    line-height: 1em;
+    line-height: 1.1em;
     padding-left: 30px;
     font-family: 'Fuzzy Bubbles', cursive,sans-serif;
-    font-size: 3.5vw;
+    font-size: 2vw;
 }
 
 section>p{
@@ -49,7 +51,7 @@ section>p{
 }
 
 section.normal{
-    background-color: yellow;
+    background-color: white;
 }
 
 section#imagefirst{
@@ -57,20 +59,43 @@ section#imagefirst{
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    max-width: 91vw;
-    margin: none;
+    width: 100%;
     background-position: center center;
     margin-left: -30px;
-    margin-right:-30px;
-
+    margin-right: -30px;
+    box-shadow: inset 4px 4px 10px 1px;
     
 }
 
-section#imagetwo{
-    background: #202020;
+section#imagefirst>p{
+    color: white;
+    display: inline-block;
+    text-shadow: 1px 1px black;
+    background-color: rgba(0, 0, 0, 0.377);
+    padding: 15px;
+
 }
 
+section#imagetwo{
+    background-image: url(imagens/book.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    background-position: center center;
+    margin-left: -30px;
+    margin-right: -30px;
+    box-shadow: inset 4px 4px 10px 1px;
+}
+section#imagetwo>p{
+    color: white;
+    display: inline-block;
+    text-shadow: 1px 1px black;
+    background-color: rgba(0, 0, 0, 0.377);
+    padding: 15px;
+    
 
+}
 
 
 
