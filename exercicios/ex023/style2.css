@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+thead, tfoot{
+    width: 400px;
+    height: 50px;
+    background-color: rgb(85, 85, 85);
+    color: rgb(255, 255, 255);
+}
+table{
+    width: 400px;
+    height: 60px;
+    border-collapse: collapse;
+}
+td,th{
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+
+}
+td{
+    text-align: left;
+    padding-left: 10px ;
+}
+.num{
+    text-align: right;
+    padding-right: 10px;
+}
