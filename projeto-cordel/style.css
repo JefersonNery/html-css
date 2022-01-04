@@ -10,7 +10,7 @@
 
 header>p{
     color: white;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     text-align: center;
     padding-bottom: 8vh;
     
@@ -73,6 +73,7 @@ section#imagefirst>p{
     text-shadow: 1px 1px black;
     background-color: rgba(0, 0, 0, 0.377);
     padding: 15px;
+    border-radius: 10px;
 
 }
 
@@ -86,6 +87,8 @@ section#imagetwo{
     margin-left: -30px;
     margin-right: -30px;
     box-shadow: inset 4px 4px 10px 1px;
+    
+
 }
 section#imagetwo>p{
     color: white;
@@ -93,7 +96,7 @@ section#imagetwo>p{
     text-shadow: 1px 1px black;
     background-color: rgba(0, 0, 0, 0.377);
     padding: 15px;
-    
+    border-radius: 10px;
 
 }
 
