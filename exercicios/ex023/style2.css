@@ -7,20 +7,30 @@ body{
 thead, tfoot{
     width: 400px;
     height: 50px;
-    background-color: rgb(85, 85, 85);
+    background-color: #555555;
     color: rgb(255, 255, 255);
 }
 table{
     width: 400px;
     height: 60px;
     border-collapse: collapse;
+    position: relative;
 }
+thead > tr >th {
+    position: sticky;
+    top: 0;
+    background-color: #555555;
+}
+
 td,th{
     height: 40px;
     border: 1px solid black;
     text-align: center;
     vertical-align: middle;
 
+}
+tbody>tr:nth-child(2n){
+    background-color: lightgrey;
 }
 td{
     text-align: left;
@@ -29,4 +39,7 @@ td{
 .num{
     text-align: right;
     padding-right: 10px;
+}
+p{
+    color: white;
 }
