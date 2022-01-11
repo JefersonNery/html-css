@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    border-collapse: collapse;
+}
+caption{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6em;
+    padding: 15px;
+    font-weight: bold;
+
+}
+th{
+    text-align: left center;
+}
+th, td{
+    border: 1px solid black;
+    padding: 8px;
+}
